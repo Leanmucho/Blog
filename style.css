@@ -1,0 +1,78 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noticia Text', serif;
+    font-size: 20px;
+}
+
+:root {
+  --color-dark: #3f3e3a;
+  --color-azul: #8a8b9d;
+  --color-gris: #d8d7dd;
+  --color-claro: #cda48e;
+  --color-marron: #a08c85;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/*  TODO EL HEADER  */
+.header {
+  margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: var(--color-dark);
+    height: 20%;
+}
+
+.img-header {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.header h1 ,h2{
+    color: rgb(255, 255, 255);
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+/* MAIN */
+.main{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px 0px;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". .";
+}
+
+.Card-main{
+    color: #fff;
+    background: var(--color-azul);
+}
+
+/* Footer */
+
+.footer{
+    background: rgba(250, 250, 250, 0.63);
+}
