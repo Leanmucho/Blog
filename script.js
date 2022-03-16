@@ -15,3 +15,4 @@ boton.addEventListener("click", function(){
       document.getElementById("imagen").classList.remove("App-logo")
      } 
    });
+ 
