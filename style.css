@@ -19,6 +19,13 @@ body{
     margin: auto;
     text-align: center;
 }
+.portfolio-img{
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+}
 
 
 /*  TODO EL HEADER  */
