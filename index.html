@@ -9,14 +9,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>El Vlog de Leanmucho</title>
 </head>
 <body>
     <div class="container">
         <header class="header" data-aos="fade-up">
-            <img src="./img/perfil.jpg" alt="" class="img-header App-logo">
-            <h1>Soy Leandro Acuña</h1>
-            <h2>Y este es mi blog...</h2>
+            <div class="Header-audio">
+                <audio controls class="music">
+                    <source src="music.mp3">
+                    Tu navegador no soporta el elemento <code>audio</code>
+                </audio>
+                <button id="boton" class="btn-p">Play</button>
+            </div>
+            <div class="Header-perfil">
+                <img src="./img/perfil.jpg" alt="" class="img-header " id="imagen">
+                <h1>Soy Leandro Acuña</h1>
+                <h2>Y este es mi blog...</h2>
+            </div>
         </header>
         <main class="main">
             <div class="Card-main" data-aos="fade-right"><h4>Carrera / Universidad</h4><p>Soy un estudiante de la Licenciatura en sistemas de informacion en la Universidad Nacional de Lujan</p></div>
@@ -26,7 +36,15 @@
             <div class="Card-main" data-aos="fade-right"><h4>Datos</h4><p>Yo soy Leandro Nicolas Acuña. Mi DNI es 43:802:823</p></div>
             <div class="Card-main" data-aos="fade-left"><h4>Contacto</h4><p>Email: acunaleandro3@gmail.com</p></div>
         </main>
-        <section class="section"></section>
+        <section class="Section">
+            <h2>Aca van a ir mis trabajos practicos</h2>
+            <div class="Section-ul">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </div>
+        </section>
         <footer class="footer"><p>Created by <a href="https://github.com/Leanmucho">Leanmucho</a></p></footer>
     </div>
 
