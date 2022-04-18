@@ -1,0 +1,34 @@
+:root {
+    --color-dark: #3f3e3a;
+    --color-azul: #8a8b9d;
+    --color-gris: #d8d7dd;
+    --color-claro: #cda48e;
+    --color-marron: #a08c85;
+  }
+
+#news {
+    margin-top: 1rem;
+}
+
+#news h2 {
+    background-color: var(--color-dark);
+    color: #fff;
+    padding: 1.5rem;
+}
+
+.news-item {
+    background-color: var(--color-gris);
+}
+
+.news-item h2 {
+    
+}
+
+.news-item p{
+    
+}
+
+.news-item a{
+    text-decoration: none;
+     
+}
